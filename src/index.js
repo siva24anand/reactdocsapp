@@ -8,12 +8,17 @@ import LoggingButton from './Components/LoggingButton';
 import Toggle from './Components/Toggle';
 import Clock from './Components/Clock';
 import HelloWorld from './Components/HelloWorld';
+import List from './Components/List';
+import Form from './Components/Form';
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 //ReactDOM.render(<Toggle />, document.getElementById('root'));
 //ReactDOM.render(<Clock />, document.getElementById('root'));
 //ReactDOM.render(<LoggingButton />, document.getElementById('root'));
-ReactDOM.render(<ConditionalRendering />, document.getElementById('root'));
+//ReactDOM.render(<ConditionalRendering />, document.getElementById('root'));
+//const number = [1,2,3,4,5];
+//ReactDOM.render(<List numbers = {number} />, document.getElementById('root'));
+ReactDOM.render(<Form />, document.getElementById('root'));
 
 
 
