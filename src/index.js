@@ -10,6 +10,7 @@ import Clock from './Components/Clock';
 import HelloWorld from './Components/HelloWorld';
 import List from './Components/List';
 import Form from './Components/Form';
+import Composition from './Components/Composition';
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 //ReactDOM.render(<Toggle />, document.getElementById('root'));
@@ -18,8 +19,8 @@ import Form from './Components/Form';
 //ReactDOM.render(<ConditionalRendering />, document.getElementById('root'));
 //const number = [1,2,3,4,5];
 //ReactDOM.render(<List numbers = {number} />, document.getElementById('root'));
-ReactDOM.render(<Form />, document.getElementById('root'));
-
+//ReactDOM.render(<Form />, document.getElementById('root'));
+ReactDOM.render(<Composition />, document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
