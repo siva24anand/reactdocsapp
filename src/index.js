@@ -10,7 +10,10 @@ import Clock from './Components/Clock';
 import HelloWorld from './Components/HelloWorld';
 import List from './Components/List';
 import Form from './Components/Form';
+import StateUp from './Components/StateUp';
 import Composition from './Components/Composition';
+import Tic from './Components/tic';
+import './tic.css'
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 //ReactDOM.render(<Toggle />, document.getElementById('root'));
@@ -21,6 +24,9 @@ ReactDOM.render(<LoggingButton />, document.getElementById('root'));
 //ReactDOM.render(<List numbers = {number} />, document.getElementById('root'));
 //ReactDOM.render(<Form />, document.getElementById('root'));
 //ReactDOM.render(<Composition />, document.getElementById('root'));
+//ReactDOM.render(<StateUp />, document.getElementById('root'));
+//ReactDOM.render(<Composition />, document.getElementById('root'));
+ReactDOM.render(<Tic />, document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
