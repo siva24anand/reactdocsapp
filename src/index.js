@@ -15,12 +15,12 @@ import Composition from './Components/Composition';
 //ReactDOM.render(<App />, document.getElementById('root'));
 //ReactDOM.render(<Toggle />, document.getElementById('root'));
 //ReactDOM.render(<Clock />, document.getElementById('root'));
-//ReactDOM.render(<LoggingButton />, document.getElementById('root'));
+ReactDOM.render(<LoggingButton />, document.getElementById('root'));
 //ReactDOM.render(<ConditionalRendering />, document.getElementById('root'));
 //const number = [1,2,3,4,5];
 //ReactDOM.render(<List numbers = {number} />, document.getElementById('root'));
 //ReactDOM.render(<Form />, document.getElementById('root'));
-ReactDOM.render(<Composition />, document.getElementById('root'));
+//ReactDOM.render(<Composition />, document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
